@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Ubuntu;
+}
+
+body, ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: Ubuntu;
+}
+h2 {
+  font-size: 2em;
+  padding: 20px 0;
+}
+
+#header {
+  height: 70px;
+  padding: 1rem;
+  display: flex;
+  width: 100%;
+  background: rgb(36, 43, 3);
+  align-items: center;
+  justify-content: space-between;
+}
+ #menu {
+  display: flex;
+  list-style: none;
+  gap: .5rem;
+  color: white;
+  font-size: 1.3em;
+
+}
+
+#menu a {
+  display: block;
+  padding: 0 .5rem;
+}
+
+#btn-mobile {
+  display: none;
+}
+
+
+
+header ul li a:hover {
+  color: rgb(247, 227, 115);
+}
+
+.logo {
+  color: white;
+  font-size: 1.5em;
+}
+.home {
+  width: 100%;
+  height: 100vh;
+  background: url('imagens/hotel2.jpg');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(36, 43, 3);
+  font-size: 1.8em;
+}
+
+.location {
+  max-width: 70%;
+  height: 60vh;
+  align-text: center;
+  margin: 50px auto;
+}
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 70%;
+  height: 100vh;
+  margin: 50px auto;
+  gap: 20px;
+}
+.flex > img {
+  max-width: 100%;
+}
+
+.flex > div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1 1 300px;
+  cursor: pointer;
+}
+
+.contact {
+  display: flex;
+  width: 100%;
+  height: 60vh;
+  background: rgb(36, 43, 3);
+  justify-content: center;
+  align-items: center;
+  color: rgb(247, 227, 115);
+  align-text: center;
+}
+
+.contact i {
+  padding: 0 100px;
+  font-size: 4em;
+  cursor: pointer;
+}
+.social{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.social p {
+  margin: 5px auto;
+  font-size: 1.4em;
+  cursor: pointer;
+}
